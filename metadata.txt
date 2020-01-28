@@ -13,7 +13,7 @@ email=el-flori@gmx.de
 about=QWaterModel is a simple tool that provides the calculation of evapotranspiration (and derivates such as plant water use, water stress ...) from thermal images.
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/FloEll/QWaterModel
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python
 
-homepage=http://homepage
+#homepage=
 category=Plugins
 icon=icon.png
 # experimental flag
@@ -40,7 +40,7 @@ deprecated=False
 plugin_dependencies=astropy
 
 Category of the plugin: Raster, Vector, Database or Web
-# category=
+category=Raster
 
 # If the plugin can run on QGIS Server.
 server=False

@@ -1,0 +1,1 @@
+QWatermodel is a simple tool to calculate Evapotranspiration from thermal images.

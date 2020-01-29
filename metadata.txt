@@ -1,47 +1,26 @@
-﻿# This file contains metadata for your plugin.
-
-# Mandatory items:
-
 [general]
 name=QWaterModel
-qgisMinimumVersion=3.0
-description=QWatermodel is a simple tool to calculate Evapotranspiration from thermal images.
+qgisMinimumVersion=3.00
+description= QWaterModel is a simple tool to calculate evapotranspiration from thermal images.
 version=0.1
+about= QWaterModel is a simple tool that provides the calculation of evapotranspiration (and derivatives such as plant water use, water stress ...) from thermal images.
+
+
 author=Florian Ellsäßer
 email=el-flori@gmx.de
-
-about=QWaterModel is a simple tool that provides the calculation of evapotranspiration (and derivates such as plant water use, water stress ...) from thermal images.
-
-tracker=http://bugs
-repository=https://github.com/FloEll/QWaterModel
-# End of mandatory metadata
-
-# Recommended items:
-
-hasProcessingProvider=no
-# Uncomment the following line and add your changelog:
-# changelog=
-
-# Tags are comma separated with spaces allowed
-tags=python
-
-#homepage=
-category=Plugins
-icon=icon.png
-# experimental flag
-experimental=True
-
-# deprecated flag (applies to the whole plugin, not just a single version)
-deprecated=False
-
-# Since QGIS 3.8, a comma separated list of plugins to be installed
-# (or upgraded) can be specified.
-# Check the documentation for more information.
-plugin_dependencies=astropy
-
-Category of the plugin: Raster, Vector, Database or Web
 category=Raster
 
-# If the plugin can run on QGIS Server.
-server=False
+icon=icon.png
+
+; start of optional metadata
+
+experimental=True
+deprecated=False
+
+tags = evapotranspiration,energy balance modeling, DATTUTDUT,Raster,Plant water use, land surface temperatures
+
+homepage=https://github.com/FloEll/QWaterModel
+tracker=https://github.com/FloEll/QWaterModel/issues
+repository=https://github.com/FloEll/QWaterModel
+
 

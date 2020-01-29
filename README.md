@@ -27,6 +27,9 @@ When QWaterModel is installed, please follow these instructions to fill the GUI:
 
 ![GUI explained](https://github.com/FloEll/QWaterModel/blob/master/images/HowToUseTheGUI.png)
 
+# Background information
+I used several energy-balance models and tried to create a simple to use tool that can be used without any programming skills using a simple GUI in QGis3. 
+
 QWaterModel is based on the DATTUTDUT energy balance model from Timmermans et al. (2015). It further uses methods from Brutsaert (1982), Brenner et al. (2018), Burridge and Gadd (1975), Ellsäßer et al. (2020), Garrat (1992), Liebethal and Foken (2007), Ogée et al. (2001). See references below:
 
 Brenner, C., Zeeman, M., Bernhardt, M., Schulz, K., 2018. Estimation of evapotranspiration of temperate grassland based on high-resolution thermal and visible range imagery from unmanned aerial systems. Int. J. Remote Sens. 39, 5141–5174. https://doi.org/10.1080/01431161.2018.1471550

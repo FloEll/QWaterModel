@@ -1,15 +1,28 @@
 # QWaterModel
-QWatermodel is a simple QGis plugin tool to calculate Evapotranspiration from thermal images.
+QWaterModel is a simple QGis plugin tool to calculate Evapotranspiration from thermal images.
 
 It was designed to be very simple to use and provides only basic functionalities. 
+
+# What does it do? 
+QWaterModel is a tool to run a simple energy-balance model (DATTUTDUT) to calculate evapotranspiration and fluxes from land surface temperatures. 
 
 Thermal images from various sources can be used: 
 
 ![Functionality explained](https://github.com/FloEll/QWaterModel/blob/master/images/imageToOutput_Graph.png)
 
+The resulting rasters contain six bands:
+1. Rn net radiation [W/m²]
+2. LE latent heat flux (from which evapotranspiration in band 6 is derived) [W/m²]
+3. H sensible heat flux [W/m²]
+4. G ground heat flux [W/m²]
+5. EF evaporative fraction [-]
+6. ET evapotranspiration [mm/m²/time period]
+
+# Installation
 For installation please also install the astropy package: 
 https://docs.astropy.org/en/stable/install.html
 
+# How to use it? 
 When QWaterModel is installed, please follow these instructions to fill the GUI:
 
 ![GUI explained](https://github.com/FloEll/QWaterModel/blob/master/images/HowToUseTheGUI.png)

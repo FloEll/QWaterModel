@@ -50,6 +50,10 @@ When QWaterModel is installed, please follow these instructions to fill the GUI:
 
 ![GUI explained](https://github.com/FloEll/QWaterModel/blob/master/images/HowToUseTheGUI.png)
 
+## Example Data
+I added some example data to test QWaterModel. These images are raw data, without any corrections. 
+https://github.com/FloEll/QWaterModel/tree/master/Data_Examples
+
 # Background information
 I used several energy-balance models and tried to create a simple to use tool that can be used without any programming skills using a simple GUI in QGis3. 
 

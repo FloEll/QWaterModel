@@ -394,7 +394,7 @@ class QWaterModel:
                            sb_const * (float(self.dlg.air_temp)**4) - 
                            float(self.dlg.surf_emis) * sb_const * 
                            (self.dlg.lst**4))
-        # if rn is specified -> this is a bit shitty still
+        # if rn is specified 
         else: 
             self.dlg.rn = float(self.dlg.rn)*self.dlg.lst/self.dlg.lst
             

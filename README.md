@@ -33,6 +33,8 @@ A simple way to install astropy in Windows 10 is to:
 4. Type: 'call qt5_env' and press enter
 5. Type: 'python3 -m pip install astropy' and press enter
 -> now the astropy package should install without errors
+if there is still an error message, try this:
+Type: 'python3 -m pip install astropy --user' and press enter
 6. close the OSGeo4W Shell
 
 ## Install QWaterModel

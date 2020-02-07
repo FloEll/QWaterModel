@@ -3,8 +3,6 @@ QWaterModel is a simple QGis plugin tool to calculate evapotranspiration from th
 
 It was designed to be very simple to use and provides only basic functionalities. 
 
-PLEASE FOLLOW THE INSTALLATION GUIDE BELOW!
-
 # What does it do? 
 QWaterModel is a tool to run a simple energy-balance model (DATTUTDUT) to calculate evapotranspiration and fluxes from land surface temperatures. 
 
@@ -20,24 +18,7 @@ The resulting rasters contain six bands:
 5. EF evaporative fraction [-]
 6. ET evapotranspiration [mm/m²/time period]
 
-# Installation Guide
-For installation please install the astropy package first: 
-https://docs.astropy.org/en/stable/install.html
-
-## Install Astropy
-A simple way to install astropy in Windows 10 is to:
-1. Search for the 'OSGeo4W Shell'
-2. Right click on OSGeo4W Shell and run it as administrator
--> the OSGeo4W Shell should now open
-3. Type: 'call py3_env' and press enter
-4. Type: 'call qt5_env' and press enter
-5. Type: 'python3 -m pip install astropy' and press enter
--> now the astropy package should install without errors   
-if there is still an error message, try this:
-Type: 'python3 -m pip install astropy --user' and press enter
-6. close the OSGeo4W Shell
-
-## Install QWaterModel
+# Install QWaterModel
 1. Open QGis3 
 2. click on Plugins>Manage and Install Plugins
 3. Open the 'Settings' and tick the field 'Show also experimental Plugins

@@ -2,12 +2,8 @@
 name=QWaterModel
 qgisMinimumVersion=3.00
 description= QWaterModel is a simple tool to calculate evapotranspiration from thermal images.
-version=0.1
-about= QWaterModel is a simple tool that provides the calculation of evapotranspiration from thermal images.
-Please follow this installation guide:
-
-https://github.com/FloEll/QWaterModel/blob/master/README.md
-
+version=0.2
+about= QWaterModel is a simple tool to calculate evapotranspiration from thermal images.
 
 author=Florian Ellsäßer
 email=el-flori@gmx.de

@@ -1,4 +1,4 @@
-# ![Logo image](https://github.com/FloEll/QWaterModel/blob/master/icon.png) QWaterModel 
+# ![Logo image](icon.png) QWaterModel 
 QWaterModel is a simple QGis plugin tool to calculate evapotranspiration from thermal images.
 
 It was designed to be very simple to use and provides only basic functionalities. 

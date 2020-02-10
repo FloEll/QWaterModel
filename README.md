@@ -38,7 +38,6 @@ I added some example data to test QWaterModel. These images are raw data, withou
 https://github.com/FloEll/QWaterModel/tree/master/Data_Examples
 
 # Background information
-I used several energy-balance models and tried to create a simple to use tool that can be used without any programming skills using a simple GUI in QGis3. 
 
 QWaterModel is based on the DATTUTDUT energy balance model from Timmermans et al. (2015). It further uses methods from Brutsaert (1982), Brenner et al. (2018), Burridge and Gadd (1975), Ellsäßer et al. (2020), Garrat (1992), Liebethal and Foken (2007), Ogée et al. (2001). See references below:
 

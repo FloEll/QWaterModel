@@ -45,7 +45,7 @@ import datetime
 
 # Define global variables
 sb_const = 5.6704*10**(-8) # Stefan Bolzmann constant
-sw_exo = 1350 # exo-atmospheric short wave radiation
+sw_exo = 1.3615 # exo-atmospheric short wave radiation / solar constant 
 
 # 
 class QWaterModel:

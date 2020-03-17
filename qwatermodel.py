@@ -539,28 +539,30 @@ class QWaterModel:
                               )
         
     def write_output_stats(self):
+        '''This function creates the output .csv file'''
         # write the output data in a .csv file
         with open(self.dlg.output_name.text(), 'w') as output_file:
             # write an out file with the most important stats
             # model parameters
-            output_file.write('Model parameters:' + '\n')
-            output_file.write('tmin_thres: ' + str(self.dlg.tmin_thres) + '\n')
-            output_file.write('tmax_thres: ' + str(self.dlg.tmax_thres) + '\n')
+            output_file.write('QWaterModel output stats:' + '\n')
+            output_file.write('Input file name: ' + str(self.dlg.input_name.text()) + '\n')
+            output_file.write('utc: ' + str(self.dlg.utc) + '\n')
+            output_file.write('Temperature information:' + '\n')
             output_file.write('tmin: ' + str(self.dlg.tmin) + '\n')
             output_file.write('tmax: ' + str(self.dlg.tmax) + '\n')
             output_file.write('temp mean: ' + str(np.mean(self.dlg.lst[~np.isnan(self.dlg.lst)])) + '\n')
             output_file.write('5% quantile: ' + str(np.quantile(self.dlg.lst[~np.isnan(self.dlg.lst)],0.05)) + '\n')
             output_file.write('95% quantile: ' + str(np.quantile(self.dlg.lst[~np.isnan(self.dlg.lst)],0.95)) + '\n')
-            output_file.write('utc: ' + str(self.dlg.utc) + '\n')
+            output_file.write('Model parameters:' + '\n')
             output_file.write('surf_emis: ' + str(self.dlg.surf_emis) + '\n')
             output_file.write('atm_emis: ' + str(self.dlg.atm_emis) + '\n')
             output_file.write('atm_trans: ' + str(self.dlg.atm_trans) + '\n')
             output_file.write('solar_elev_ang: ' + str(self.get_sol_elev_ang()) + '\n')
             output_file.write('albedo mean: ' + str(np.mean(self.dlg.albedo[~np.isnan(self.dlg.albedo)])) + '\n')
+            output_file.write('sw_irr: ' + str(self.dlg.sw_irr) + '\n')
             output_file.write('air_temp: ' + str(self.dlg.air_temp) + '\n')
             output_file.write('time_period: ' + str(self.dlg.time_period) + '\n')
-            output_file.write('sw_irr: ' + str(self.dlg.sw_irr) + '\n')
-            # output layer stats self.dlg.water
+            output_file.write('Output raster information:' + '\n')
             output_file.write('flux ' + 'mean ' + 'min ' + 'max ' + '\n')
             self.write_stats(output_file,'net radiation [W/m²]',self.dlg.rn)
             self.write_stats(output_file,'latent heat flux [W/m²]',self.dlg.le)

@@ -32,13 +32,9 @@ When QWaterModel is installed, please follow these instructions to fill the GUI:
 
 ![GUI explained image](https://github.com/FloEll/QWaterModel/blob/master/images/HowToUseTheGUI.png)
 
-## Example Data
-I added some example data to test QWaterModel. These images are raw data, without any corrections. 
-https://github.com/FloEll/QWaterModel/tree/master/Data_Examples
-
 # How to cite QWaterModel
-We are currently working on a small technical note that demonstrates the application of the QWaterModel plugin in a small study. Until then please cite like this: 
-Ellsäßer, F. (2020) QWaterModel - A QGIS3 plugin to model evapotranspiration from thermal images. URL: https://plugins.qgis.org/plugins/qwatermodel/
+Ellsäßer et al. (2020), Introducing QWaterModel, a QGIS plugin for predicting evapotranspiration from land surface temperatures,
+Environmental Modelling & Software, https://doi.org/10.1016/j.envsoft.2020.104739.
 
 # More Information
 QWaterModel is the result of some rainy evenings during my PhD studies in 2019 and 2020. I realized that there was no simple tool for evapotranspiration estimation and modelling out there that was simple to use, easy to access and open source. I don’t claim that it is perfect yet and due to its simplicity I cannot guarantee that it will work under all conditions. 

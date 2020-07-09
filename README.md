@@ -43,7 +43,6 @@ Acta Geophys. 63, 1571–1608. https://doi.org/10.1515/acgeo-2015-0016.
 
 # More Information
 QWaterModel is the result of some rainy evenings during my PhD studies in 2019 and 2020. I realized that there was no simple tool for evapotranspiration estimation and modelling out there that was simple to use, easy to access and open source. I don’t claim that it is perfect yet and due to its simplicity I cannot guarantee that it will work under all conditions. 
-I plan to constantly add more functionality to this plugin (e.g. other energy balance models, a ground referencing scheme for thermal maps and an option to calculate the crop water stress index CWSI). The idea in the long run is to create a multitool for instantaneous flux and water modeling with the objective to keep it simple and easy to apply. 
 If you have any suggestions, ideas for improvement or further development, did you find a bug or do you want to contribute to the QWaterModel project, please feel free to contact me via github.com: https://github.com/FloEll
 
 QGIS3 Python Plugins repository: https://plugins.qgis.org/plugins/qwatermodel/

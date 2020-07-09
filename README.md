@@ -36,6 +36,10 @@ When QWaterModel is installed, please follow these instructions to fill the GUI:
 Ellsäßer et al. (2020), Introducing QWaterModel, a QGIS plugin for predicting evapotranspiration from land surface temperatures,
 Environmental Modelling & Software, https://doi.org/10.1016/j.envsoft.2020.104739.
 
+Please also cite the DATTUTDUT energy-balance model on which this plugin is based: 
+Timmermans, W.J., Kustas, W.P., Andreu, A., 2015. Utility of an automated thermal-based approach for monitoring evapotranspiration. 
+Acta Geophys. 63, 1571–1608. https://doi.org/10.1515/acgeo-2015-0016. 
+
 # More Information
 QWaterModel is the result of some rainy evenings during my PhD studies in 2019 and 2020. I realized that there was no simple tool for evapotranspiration estimation and modelling out there that was simple to use, easy to access and open source. I don’t claim that it is perfect yet and due to its simplicity I cannot guarantee that it will work under all conditions. 
 I plan to constantly add more functionality to this plugin (e.g. other energy balance models, a ground referencing scheme for thermal maps and an option to calculate the crop water stress index CWSI). The idea in the long run is to create a multitool for instantaneous flux and water modeling with the objective to keep it simple and easy to apply. 

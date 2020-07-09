@@ -37,6 +37,7 @@ Ellsäßer et al. (2020), Introducing QWaterModel, a QGIS plugin for predicting 
 Environmental Modelling & Software, https://doi.org/10.1016/j.envsoft.2020.104739.
 
 Please also cite the DATTUTDUT energy-balance model on which this plugin is based: 
+
 Timmermans, W.J., Kustas, W.P., Andreu, A., 2015. Utility of an automated thermal-based approach for monitoring evapotranspiration. 
 Acta Geophys. 63, 1571–1608. https://doi.org/10.1515/acgeo-2015-0016. 
 

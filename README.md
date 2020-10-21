@@ -48,4 +48,7 @@ If you have any suggestions, ideas for improvement or further development, did y
 QGIS3 Python Plugins repository: https://plugins.qgis.org/plugins/qwatermodel/
 
 # References
+Ellsäßer et al. (2020), Introducing QWaterModel, a QGIS plugin for predicting evapotranspiration from land surface temperatures,
+Environmental Modelling & Software, https://doi.org/10.1016/j.envsoft.2020.104739.
+
 Timmermans, W.J., Kustas, W.P., Andreu, A., 2015. Utility of an automated thermal-based approach for monitoring evapotranspiration. Acta Geophys. 63, 1571–1608. https://doi.org/10.1515/acgeo-2015-0016

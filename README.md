@@ -16,7 +16,7 @@ The resulting rasters contain six bands:
 3. H sensible heat flux [W/m²]
 4. G ground heat flux [W/m²]
 5. EF evaporative fraction [-]
-6. ET evapotranspiration [mm/m²/time period]
+6. ET evapotranspiration [kg/m²/time period]
 
 # Install QWaterModel
 1. Open QGis3 

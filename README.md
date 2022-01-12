@@ -3,6 +3,8 @@ QWaterModel is a simple QGis plugin tool to calculate evapotranspiration from th
 
 It was designed to be very simple to use and provides only basic functionalities. 
 
+Here is a tutorial of how to use it: https://ecothermographylab.com/evapotranspiration/
+
 # What does it do? 
 QWaterModel is a tool to run a simple energy-balance model (DATTUTDUT) to calculate evapotranspiration and fluxes from land surface temperatures. 
 
@@ -28,9 +30,7 @@ The resulting rasters contain six bands:
 You should be ready to use QWaterModel now. 
 
 # How to use it? 
-When QWaterModel is installed, please follow these instructions to fill the GUI:
-
-![GUI explained image](https://github.com/FloEll/QWaterModel/blob/master/images/HowToUseTheGUI.png)
+I created a short tutorial that will be frequently updated: https://ecothermographylab.com/evapotranspiration/
 
 # How to cite QWaterModel
 Ellsäßer et al. (2020), Introducing QWaterModel, a QGIS plugin for predicting evapotranspiration from land surface temperatures,
